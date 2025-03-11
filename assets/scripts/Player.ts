@@ -25,12 +25,6 @@ export class Player extends Component {
 
         // 注册碰撞检测
         let collider = this.getComponent(BoxCollider2D);
-        if (!collider) {
-            collider = this.addComponent(BoxCollider2D);
-        }
-        // 设置碰撞检测属性
-        collider.enabled = true;
-        collider.sensor = true; // 设置为触发器，不产生物理效果
         
         // 注册碰撞回调
         collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);

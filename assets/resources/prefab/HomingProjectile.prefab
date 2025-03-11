@@ -1,7 +1,7 @@
 [
   {
     "__type__": "cc.Prefab",
-    "_name": "Enemy",
+    "_name": "HomingProjectile",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_native": "",
@@ -13,7 +13,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Enemy",
+    "_name": "HomingProjectile",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": null,
@@ -26,19 +26,10 @@
     "_components": [
       {
         "__id__": 10
-      },
-      {
-        "__id__": 12
-      },
-      {
-        "__id__": 14
-      },
-      {
-        "__id__": 16
       }
     ],
     "_prefab": {
-      "__id__": 18
+      "__id__": 12
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -136,8 +127,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 40,
-      "height": 40
+      "width": 8,
+      "height": 20
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -148,7 +139,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "bd0iwuVDREj5BlyaRA8sZS"
+    "fileId": "a39BJE77BGTZcGOrRdaxPM"
   },
   {
     "__type__": "cc.Sprite",
@@ -167,9 +158,9 @@
     "_dstBlendFactor": 4,
     "_color": {
       "__type__": "cc.Color",
-      "r": 243,
-      "g": 136,
-      "b": 136,
+      "r": 229,
+      "g": 128,
+      "b": 255,
       "a": 255
     },
     "_spriteFrame": {
@@ -193,7 +184,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "9fI3IeskVL0oPiqkS+N05q"
+    "fileId": "f56uknXx5Oy53KNNQ0vBB3"
   },
   {
     "__type__": "cc.Widget",
@@ -221,15 +212,15 @@
     "_isAbsBottom": true,
     "_isAbsHorizontalCenter": true,
     "_isAbsVerticalCenter": true,
-    "_originalWidth": 60,
-    "_originalHeight": 60,
+    "_originalWidth": 100,
+    "_originalHeight": 100,
     "_alignMode": 2,
     "_lockFlags": 0,
     "_id": ""
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "6538CulBNNx6SgK3AZf8uu"
+    "fileId": "31VCtc07NHlIuuBq9FRNy1"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -239,7 +230,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "31tUnQJbNJiZs8/x06Z1yy",
+    "fileId": "a9SejJBHBN1qJCFKp/rkTo",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
@@ -258,8 +249,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 40,
-      "height": 40
+      "width": 8,
+      "height": 20
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -270,96 +261,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "5diLzo9VxGjYxZDJMiuAE7"
-  },
-  {
-    "__type__": "787c6FPoP5HvKJNCGaOU3vD",
-    "_name": "",
-    "_objFlags": 0,
-    "__editorExtras__": {},
-    "node": {
-      "__id__": 1
-    },
-    "_enabled": true,
-    "__prefab": {
-      "__id__": 13
-    },
-    "moveSpeed": 5,
-    "damage": 10,
-    "hp": 50,
-    "_id": ""
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "a03T8jgCdBfr4NPtjMCcm7"
-  },
-  {
-    "__type__": "cc.BoxCollider2D",
-    "_name": "",
-    "_objFlags": 0,
-    "__editorExtras__": {},
-    "node": {
-      "__id__": 1
-    },
-    "_enabled": true,
-    "__prefab": {
-      "__id__": 15
-    },
-    "tag": 0,
-    "_group": 2,
-    "_density": 1,
-    "_sensor": false,
-    "_friction": 0.2,
-    "_restitution": 0,
-    "_offset": {
-      "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
-    },
-    "_size": {
-      "__type__": "cc.Size",
-      "width": 40,
-      "height": 40
-    },
-    "_id": ""
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "86cBVx20pNaaFBk2zMl1l3"
-  },
-  {
-    "__type__": "cc.RigidBody2D",
-    "_name": "",
-    "_objFlags": 0,
-    "__editorExtras__": {},
-    "node": {
-      "__id__": 1
-    },
-    "_enabled": true,
-    "__prefab": {
-      "__id__": 17
-    },
-    "enabledContactListener": true,
-    "bullet": false,
-    "awakeOnLoad": true,
-    "_group": 2,
-    "_type": 2,
-    "_allowSleep": true,
-    "_gravityScale": 0,
-    "_linearDamping": 0,
-    "_angularDamping": 0,
-    "_linearVelocity": {
-      "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
-    },
-    "_angularVelocity": 0,
-    "_fixedRotation": true,
-    "_id": ""
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "52c1RptXRPjpridOMLG/yQ"
+    "fileId": "98rIz034JKUpmr0cETe/IF"
   },
   {
     "__type__": "cc.PrefabInfo",
