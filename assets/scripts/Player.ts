@@ -29,7 +29,6 @@ export class Player extends Component {
             collider = this.addComponent(BoxCollider2D);
         }
         // 设置碰撞检测属性
-        collider.group = 1; // 设置碰撞组
         collider.enabled = true;
         collider.sensor = true; // 设置为触发器，不产生物理效果
         
